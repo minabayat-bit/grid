@@ -14,7 +14,7 @@ main {
   grid-template-rows: repeat(2, 200px);
   gap: 40px;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   padding-top: 150px;
 }
 .container {
@@ -24,7 +24,6 @@ main {
   gap: 10px;
   background-color: rgb(29 32 75);
   border-radius: 8px;
-  height: 400px;
 }
 .item1 {
   grid-row: 1/3;
